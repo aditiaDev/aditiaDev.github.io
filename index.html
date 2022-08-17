@@ -248,6 +248,17 @@
       .v1:hover .garis {
         background-size: 100% 5px;
       }
+
+      .portfolio{
+        width: 350px;
+        height: 165px;
+      }
+
+      .site-list .listku{
+        font-size: 18px;
+        margin:0px;
+        color: #2c3e50;
+      }
     </style>
   </head>
   <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
@@ -266,10 +277,8 @@
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-services">Services</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-blog">Blog</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
           </ul>
         </div>
@@ -397,12 +406,12 @@
             <h3 class="mb-3" style="margin-top: 50px;"><strong>Soft Sklills</strong></h3>
 
             <ul class="site-list">
-              <li class="site-check" style="font-size: 18px;margin:0px;color: #2c3e50;">Time Management</li>
-              <li class="site-check" style="font-size: 18px;margin:0px;color: #2c3e50;">Problem Solving</li>
-              <li class="site-check" style="font-size: 18px;margin:0px;color: #2c3e50;">Teamwork</li>
-              <li class="site-check" style="font-size: 18px;margin:0px;color: #2c3e50;">Analytical Thinking</li>
-              <li class="site-check" style="font-size: 18px;margin:0px;color: #2c3e50;">Flexibility</li>
-              <li class="site-check" style="font-size: 18px;margin:0px;color: #2c3e50;">Attention to Detail</li>
+              <li class="site-check listku">Time Management</li>
+              <li class="site-check listku">Problem Solving</li>
+              <li class="site-check listku">Teamwork</li>
+              <li class="site-check listku">Analytical Thinking</li>
+              <li class="site-check listku">Flexibility</li>
+              <li class="site-check listku">Attention to Detail</li>
             </ul>
 
           </div>
@@ -600,127 +609,178 @@
     <section class="site-section" id="section-portfolio">
       <div class="container">
         <div class="row">
-          <div class="section-heading text-center col-md-12">
-              <h2>Featured <strong>Portfolio</strong></h2>
-            </div>
+          <div class="section-heading content v1 text-center col-md-12">
+              <h2 class="garis">Featured <strong>Portfolio</strong></h2>
+          </div>
         </div>
-        <div class="filters">
-                        <ul>
-                            <li class="active" data-filter="*">All</li>
-                            <li data-filter=".packaging">Packaging</li>
-                            <li data-filter=".mockup">Mockup</li>
-                            <li data-filter=".typography">Typography</li>
-                            <li data-filter=".photography">Photography</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="filters-content">
-                        <div class="row grid">
-                            <div class="single-portfolio col-sm-4 all mockup">
-                              <div class="relative">
-                                <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="images/p1.jpg" alt="">
-                                </div>
-                  <a href="images/p1.jpg" class="img-pop-up">  
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-                    </div>
+        <!-- <div class="filters">
+          <ul>
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".packaging">Packaging</li>
+            <li data-filter=".mockup">Mockup</li>
+            <li data-filter=".typography">Typography</li>
+            <li data-filter=".photography">Photography</li>
+          </ul>
+        </div> -->
+        
+        <div class="filters-content">
+          <div class="row grid">
+
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                    <img class="image img-fluid portfolio" src="images/project/erp/PR.png" alt="">
+                </div>
+                <a href="images/project/erp/PR.png" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
                 </a>                                  
-                              </div>
-                <div class="p-inner">
-                    <h4>Square Box Mockup</h4>
-                  <div class="cat">Mockup</div>
-                </div>                                         
-                            </div>
-                            <div class="single-portfolio col-sm-4 all mockup">
-                              <div class="relative">
-                                <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="images/p2.jpg" alt="">
-                                </div>
-                  <a href="images/p2.jpg" class="img-pop-up">  
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-                    </div>
+              </div>
+              <div class="p-inner">
+                  <h4>Material Management</h4>
+              </div>                                         
+            </div>
+
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                    <img class="image img-fluid portfolio" src="images/project/lahan/input_tanah.png" alt="">
+                </div>
+                <a href="images/project/lahan/input_tanah.png" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
                 </a>                                  
-                              </div>
-                <div class="p-inner">
-                    <h4>Product Box Package Mockup</h4>
-                  <div class="cat">Mockup</div>
-                </div>                                         
-                            </div>                            
-                            <div class="single-portfolio col-sm-4 all packaging">
-                              <div class="relative">
-                                <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="images/p3.jpg" alt="">
-                                </div>
-                  <a href="images/p3.jpg" class="img-pop-up">  
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-                    </div>
-                  </a> 
-                                  
-                              </div>
-                                <div class="p-inner">
-                                    <h4>Creative Package Design</h4>
-                                    <div class="cat">Packaging</div>
-                                </div>
-                            </div>
-                            <div class="single-portfolio col-sm-4 all packaging">
-                              <div class="relative">
-                                <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="images/p4.jpg" alt="">
-                                </div>
-                  <a href="images/p4.jpg" class="img-pop-up">  
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-                    </div>
-                  </a>                                
-                              </div> 
-                                <div class="p-inner">
-                                    <h4>Packaging Brand</h4>
-                                    <div class="cat">Packaging</div>
-                                </div>
-                            </div>
-                            <div class="single-portfolio col-sm-4 all typography">
-                              <div class="relative">
-                              <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="images/p5.jpg" alt="">
-                                </div>
-                  <a href="images/p5.jpg" class="img-pop-up">  
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-                    </div>
-                  </a>                                
-                              </div>
-                                <div class="p-inner">
-                                    <h4>Isometric 3D Extrusion</h4>
-                                    <div class="cat">Typography</div>
-                                </div>
-                            </div>
-                            <div class="single-portfolio col-sm-4 all photography">
-                              <div class="relative">
-                                <div class="thumb">
-                                  <div class="overlay overlay-bg"></div>
-                                   <img class="image img-fluid" src="images/p6.jpg" alt="">
-                                </div>
-                  <a href="images/p6.jpg" class="img-pop-up">  
-                    <div class="middle">
-                      <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-                    </div>
-                  </a>                                
-                              </div>
-                                <div class="p-inner">
-                                    <h4>White Space Photography</h4>
-                                    <div class="cat">photography</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="p-inner">
+                  <h4>Management Lahan Desa</h4>
+              </div>                                         
+            </div>
+
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                    <img class="image img-fluid portfolio" src="images/project/turnamen/home.png" alt="">
+                </div>
+                <a href="images/project/turnamen/home.png" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                  <h4>Tournamnet using Round Robin Method</h4>
+              </div>                                         
+            </div>
+
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                    <img class="image img-fluid portfolio" src="images/project/sap/LIST_consumption.png" alt="">
+                </div>
+                <a href="images/project/sap/LIST_consumption.png" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                  <h4>Reporting in SAP</h4>
+              </div>                                         
+            </div>
+
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                    <img class="image img-fluid portfolio" src="images/project/crm/create_complaint.png" alt="">
+                </div>
+                <a href="images/project/crm/create_complaint.png" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                  <h4>Customer Complaint Management</h4>
+              </div>                                         
+            </div>
+
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                    <img class="image img-fluid portfolio" src="images/project/csm/entry_sample.png" alt="">
+                </div>
+                <a href="images/project/csm/entry_sample.png" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                  <h4>Customer Sample Management</h4>
+              </div>                                         
+            </div>
+
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                    <img class="image img-fluid portfolio" src="images/project/spk_saw_job/perangkingan.png" alt="">
+                </div>
+                <a href="images/project/spk_saw_job/perangkingan.png" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                  <h4>Sistem Pendukung Keputusan</h4>
+              </div>                                         
+            </div>
+
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                    <img class="image img-fluid portfolio" src="images/project/mebel/penjualan.png" alt="">
+                </div>
+                <a href="images/project/mebel/penjualan.png" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                  <h4>Penjualan Mebel di Jepara</h4>
+              </div>                                         
+            </div>
+
+            <div class="single-portfolio col-sm-4 all mockup">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                    <img class="image img-fluid portfolio" src="images/project/laborat/peminjaman.png" alt="">
+                </div>
+                <a href="images/project/laborat/peminjaman.png" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                  <h4>Sistem Informasi Peminjaman Alat Lab</h4>
+              </div>                                         
+            </div>
+
+          </div>
+        </div>
       </div>
     </section>
     <!-- .section -->
@@ -729,38 +789,18 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 mb-5">
-            <div class="section-heading text-center">
-              <h2>My <strong>Resume</strong></h2>
+            <div class="section-heading content v1 text-center">
+              <h2 class="garis">My <strong>Resume</strong></h2>
             </div>
           </div>
           <div class="col-md-6">
             <h2 class="mb-5">Education</h2>
             <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Masteral in Information Technology</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">New York University</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present Deacember.</span>
-              <h3>Masteral in Information Technology</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">New York University</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Masteral in Information Technology</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">New York University</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present Deacember.</span>
-              <h3>Masteral in Information Technology</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">New York University</span>
+              <span class="date"><span class="icon-calendar"></span> 2014 - 2018</span>
+              <span class="school">Muria Kudus University</span>
+              <h3>Bachelor of Computer Science</h3>
+              <p>Majoring in information systems. Graduated with GPA 3.85/4.</p>
+              
             </div>
 
           </div>
@@ -770,40 +810,26 @@
             <h2 class="mb-5">Experience</h2>
 
             <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Lead Product Designer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">Github</span>
+              <span class="date"><span class="icon-calendar"></span> May 2018 - Present</span>
+              <span class="school">PT. Asia Pacific Fibers Tbk. (Kendal)</span>
+              <h3>Analyst and Programmer</h3>
+              <!-- <p></p> -->
+              <ul class="site-list">
+                <li class="site-check listku" style="font-size:16px;line-height: normal;">Maintenance on Material management program, Customer Sample and Customer Complaint.</li>
+                <li class="site-check listku" style="font-size:16px;line-height: normal;">Maintenance on the database like cutting data, improve queries so that the system can run faster and the load on the database server is lighter.</li>
+                <li class="site-check listku" style="font-size:16px;line-height: normal;">Development and modification of existing programs.</li>
+                <li class="site-check listku" style="font-size:16px;line-height: normal;">Provide training to users when there is a modification or creation of a new program.</li>
+                <li class="site-check listku" style="font-size:16px;line-height: normal;">Support in SAP implementation for Material Management / Logistics module which has been implemented since April 2022.</li>
+                <li class="site-check listku" style="font-size:16px;line-height: normal;">Create reports in SAP using the ABAP programming language to assist users in getting the desired data in SAP.</li>
+              </ul>
             </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Lead Product Designer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">Facebook</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Lead Product Designer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">Twitter</span>
-            </div>
-
-            <div class="resume-item mb-4">
-              <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-              <h3>Lead Product Designer</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <span class="school">Shopify</span>
-            </div>
-
 
           </div>
         </div>
       </div>
     </section> <!-- .section -->
 
-    <section class="site-section" id="section-blog">
+    <!-- <section class="site-section" id="section-blog">
       <div class="container">
         <div class="row">
           <div class="col-md-12 mb-5">
@@ -861,61 +887,36 @@
 
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="site-section bg-light" id="section-contact">
       <div class="container">
-        <div class="row">
-          <div class="col-md-12 mb-5">
-            <div class="section-heading text-center">
-              <h2>Wanna <strong>Start Work</strong> With Me?</h2>
+        <div class="row pt-5">
+          <div class="col-md-4 mb-4">
+            <div class="section-heading content v1">
+              <h2 class="garis">Wanna <strong>Start Work</strong> With Me?</h2>
             </div>
           </div>
-          
-          <div class="col-md-7 mb-5 mb-md-0">
-            <form action="" class="site-form">
-              <h3 class="mb-5">Get In Touch</h3>
-              <div class="form-group">
-                <input type="text" class="form-control px-3 py-4" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control px-3 py-4" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
-              </div>
-              <div class="form-group mb-5">
-                <textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
-              </div>
-            </form>
-          </div>
-          <div class="col-md-5 pl-md-5">
-            <h3 class="mb-5">My Contact Details</h3>
+          <div class="col-md-6">
+            <h3 class="mb-3"><strong>My Contact Details</strong></h3>
             <ul class="site-contact-details">
               <li>
                 <span class="text-uppercase">Email</span>
-                site@gmail.com
+                urbanaditia@gmail.com
               </li>
               <li>
                 <span class="text-uppercase">Phone</span>
-                +30 976 1382 9921
-              </li>
-              <li>
-                <span class="text-uppercase">Fax</span>
-                +30 976 1382 9922
+                +62 856-4352-0576
               </li>
               <li>
                 <span class="text-uppercase">Address</span>
-                San Francisco, CA <br>
-                4th Floor8 Lower  <br>
-                San Francisco street, M1 50F
+                Kedungdowo RT 1/3, <br>
+                Kaliwungu, Kudus
               </li>
             </ul>
           </div>
         </div>
+        
       </div>
     </section>
 
@@ -925,11 +926,9 @@
         <div class="row mb-3">
           <div class="col-md-12 text-center">
             <p>
-              <a href="#" class="social-item"><span class="icon-facebook2"></span></a>
-              <a href="#" class="social-item"><span class="icon-twitter"></span></a>
-              <a href="#" class="social-item"><span class="icon-instagram2"></span></a>
-              <a href="#" class="social-item"><span class="icon-linkedin2"></span></a>
-              <a href="#" class="social-item"><span class="icon-vimeo"></span></a>
+              <a href="https://github.com/aditiaDev" class="social-item"><span class="icon-github"></span></a>
+              <a href="https://www.instagram.com/aditia_rasid" class="social-item"><span class="icon-instagram2"></span></a>
+              <a href="https://www.linkedin.com/in/aditia-rasid-b95086122/" class="social-item"><span class="icon-linkedin2"></span></a>
             </p>
           </div>
         </div>
